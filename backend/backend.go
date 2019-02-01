@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"flag"
+	"fmt"
 	"log"
 	"net/http"
 	"strconv"
@@ -28,6 +29,9 @@ func main() {
 
 	router := httprouter.New()
 	router.GET("/", index)
+	router.GET("/banner-ppl.png", index)
+	router.GET("/banner-ppl-women.png", index)
+	router.GET("/bk-sale.png", index)
 	router.ServeFiles("/_nuxt/*filepath", http.Dir("../web/dist/_nuxt"))
 	router.ServeFiles("/cart/*filepath", http.Dir("../web/dist/cart"))
 	router.ServeFiles("/men/*filepath", http.Dir("../web/dist/men"))
@@ -39,6 +43,7 @@ func main() {
 }
 
 func index(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
+	fmt.Println("@@@@@:", "../web/dist/"+r.URL.Path[1:])
 	http.ServeFile(w, r, "../web/dist/"+r.URL.Path[1:])
 }
 

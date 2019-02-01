@@ -3,28 +3,28 @@
   "all": [
     "layouts/default.1726d68c78b92d1e6489.js",
     "pages/cart.8a1afff2034d5188929d.js",
-    "pages/index.a9aa9bea7e686ed61456.js",
-    "pages/women.f604c7971e1e848521af.js",
-    "pages/men.cd725984acfbbc4f1419.js",
-    "pages/sale.9bacd4dd2c05c19f5fd8.js",
+    "pages/index.8a6386aabeef09c6f96e.js",
+    "pages/women.f8761db339e488161e7e.js",
+    "pages/men.1fb8301e113d3a394a52.js",
+    "pages/sale.969d99c699b470a7127c.js",
     "vendor.ce12b1633fa27c94e7b4.js",
     "app.f4932c08a598ea4a7758.js",
-    "manifest.927ca2e008a82817a1f4.js",
+    "manifest.d7c3bc4ea2f8e35e531f.js",
     "LICENSES",
     "index.spa.html"
   ],
   "initial": [
-    "manifest.927ca2e008a82817a1f4.js",
+    "manifest.d7c3bc4ea2f8e35e531f.js",
     "vendor.ce12b1633fa27c94e7b4.js",
     "app.f4932c08a598ea4a7758.js"
   ],
   "async": [
     "layouts/default.1726d68c78b92d1e6489.js",
     "pages/cart.8a1afff2034d5188929d.js",
-    "pages/index.a9aa9bea7e686ed61456.js",
-    "pages/women.f604c7971e1e848521af.js",
-    "pages/men.cd725984acfbbc4f1419.js",
-    "pages/sale.9bacd4dd2c05c19f5fd8.js"
+    "pages/index.8a6386aabeef09c6f96e.js",
+    "pages/women.f8761db339e488161e7e.js",
+    "pages/men.1fb8301e113d3a394a52.js",
+    "pages/sale.969d99c699b470a7127c.js"
   ],
   "modules": {
     "56398402": [

@@ -1,6 +1,6 @@
 <template>
   <div class="masthead" :style="`background:${bkcolor}`">
-    <img class="ppl-banner" :src="`/${img}.png`" alt="Banner Image">
+    <img class="ppl-banner" :src="img" alt="Banner Image">
     <svg class="bk" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1367.57 190.59" preserveAspectRato="none" role="presentation">
       <path d="M1-5.7c26.29,0,52.59.07,78.88,0a13.65,13.65,0,0,1,8,2.25,85.25,85.25,0,0,1,19.56,17.1c9.32,11.46,6.88,35.64-9.63,43.28-13.87,6.43-28.32,9.78-43.33,11.41C36.52,70.29,18.7,69.25,1,66.53Z" transform="translate(-0.95 5.75)" style="fill: #fe3a25"/>
       <path d="M1368.52,80.78c-5.4-1.17-11-1-16.31-2.88s-6.07-3.28-4.68-8.82.34-7.87-5.16-9.87c-5.33-1.94-10.86-3.37-16.18-5.35-10.6-3.93-19-10.53-24.43-20.67-1.2-2.25-2.6-4.55-2.19-7.14.7-4.39-1.64-6.79-5-8.8-8.53-5.16-17.66-9.17-26.49-13.76-4.75-2.47-9.62-4.75-13.94-8.13,1.08-1.48,2.43-.78,3.53-.78,25.81,0,51.62,0,77.43-.1,3,0,4.94.61,6.51,3.36a28.59,28.59,0,0,0,13.63,12.05c4.46,2,8.83,4.17,13.24,6.27Z" transform="translate(-0.95 5.75)" style="fill: #fe3a25"/>
@@ -31,7 +31,7 @@ export default {
     },
     img: {
       type: String,
-      default: 'banner-ppl'
+      default: '/banner-ppl.png'
     }
   }
 };

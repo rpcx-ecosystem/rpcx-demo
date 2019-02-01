@@ -1,7 +1,7 @@
 <template>
   <main class="capsule">
     <div class="saleimg">
-      <app-masthead img="bk-sale" title="Sale" bkcolor="#1ba079"/>
+      <app-masthead img="img" title="Sale" bkcolor="#1ba079"/>
     </div>
     <div class="contain">
       <app-sidebar :pricerange.sync="highprice" :sale="true"/>
