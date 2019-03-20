@@ -43,7 +43,6 @@ func main() {
 }
 
 func index(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
-	fmt.Println("@@@@@:", "../web/dist/"+r.URL.Path[1:])
 	http.ServeFile(w, r, "../web/dist/"+r.URL.Path[1:])
 }
 
